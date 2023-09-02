@@ -52,6 +52,7 @@ header h2 {
   color: #333;
 }
 
+
 .about-section h2 {
   color: #006b60;
   font-size: 24px;
@@ -71,6 +72,18 @@ header h2 {
 
 .about-section a:hover {
   color: #4b9997;
+}
+
+.about-section .featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-section .featured-img {
+  max-width: 100%;
+  background-color: red;
 }
 
 
